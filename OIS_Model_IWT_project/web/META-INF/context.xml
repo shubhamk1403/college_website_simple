@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/OIS_Model_IWT_project" reloadable="true">
+<Resource name="jdbc/test" auth="Container"
+type="javax.sql.DataSource"
+username="subham" password="123"
+driverClassName="org.apache.derby.jdbc.ClientDriver"
+url="jdbc:derby://localhost:1527/student"
+maxActive="100" maxIdle="20" maxWait="10000"/>
+</Context>
